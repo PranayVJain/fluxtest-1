@@ -38,7 +38,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: user-data-ubuntu
-  namespace: default
+  namespace: ec-system
 data:
   user-data: |
     #cloud-config
