@@ -49,7 +49,7 @@ data:
         network:
             ethernets:
                 eth0:
-                    dhcp4: no
+                    dhcp4: false
                     addresses:
                       - 172.16.227.187/16
                     routes:
