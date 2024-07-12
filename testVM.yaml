@@ -51,7 +51,7 @@ data:
                 eth0:
                     dhcp4: no
                     addresses:
-                      - 172.16.227.186/16
+                      - 172.16.227.187/16
                     routes:
                       - to: default
                         via: 172.16.255.254
