@@ -44,9 +44,9 @@ data:
         version: 2
         ethernets:
             eth0:
-                dhcp4: "no"
+                dhcp4: "false"
                 addresses:
-                    - 172.16.227.180/16
+                    - 172.16.227.181/16
                 nameservers:
                     addresses:
                         - 8.8.8.8
