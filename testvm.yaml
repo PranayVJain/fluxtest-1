@@ -43,9 +43,7 @@ data:
   networkconfig: |
         version: 2
         ethernets:
-            nics:
-                match:
-                    name: eth*
+            eth0:
                 dhcp4: "no"
                 addresses:
                     - 172.16.227.180/16
