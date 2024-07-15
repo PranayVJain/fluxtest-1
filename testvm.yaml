@@ -48,7 +48,7 @@ data:
                     addresses:
                       - 172.16.227.187/16
                     routes:
-                      - to: default
+                      - to: 0.0.0.0/0
                         via: 172.16.255.254
                     nameservers:
                         addresses: [8.8.8.8]
