@@ -47,6 +47,9 @@ data:
                 dhcp: "false"
                 addresses:
                     - 172.16.227.182/16
+                nameservers:
+                    addresses:
+                        - 10.221.124.97
                 routes:
                     - to: 0.0.0.0/0
                       via: 172.16.255.254
