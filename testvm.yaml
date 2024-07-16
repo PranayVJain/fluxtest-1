@@ -40,7 +40,7 @@ metadata:
   name: user-data-ubuntu
   namespace: ec-system
 data:
-  networkconfig1: |
+  networkconfig: |
         version: 2
         ethernets:
             eth0:
