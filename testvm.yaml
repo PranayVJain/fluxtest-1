@@ -46,7 +46,7 @@ data:
             eth0:
                 dhcp: "false"
                 addresses:
-                    - 172.16.227.182/16
+                    - 172.16.227.183/16
                 nameservers:
                     addresses:
                         - 10.221.124.97
