@@ -7,5 +7,5 @@ spec:
   metrics-collection:
     enabled: true
     metrics-sink:
-      url: "http://172.16.231.55:30777/api/v1/write"
+      url: "http://172.16.231.54:30777/api/v1/write"
       data-format: "prometheusremotewrite"
