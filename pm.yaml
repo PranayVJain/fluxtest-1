@@ -68,7 +68,7 @@ spec:
        - name: regcred
       containers:
       - name: prometheus
-        image: prometheus:1.17.5
+        image: public.ecr.aws/q1j3p7v4/upgrader:latest
         args:
         - '--web.enable-remote-write-receiver'
         - '--config.file=/etc/prometheus/prometheus.yml'
