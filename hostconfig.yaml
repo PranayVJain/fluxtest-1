@@ -11,7 +11,7 @@ spec:
     "esx": {
       "system": {
         "welcome_message": {
-          "message": "\{align:center}\n\n\n\n VMware Edge Cloud Orchestrator - Edge Host{/color}{/align}\n\n\n\n\n\n\n\n\n{align:center}No Unauthorized Access{/color}{/align}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{align:center} For access contact Alan Renouf on 555 555-5555{/color}{/align}"
+          "message": "Hello VMware Edge Cloud Orchestrator - Edge Host"
         }
        }
      }
