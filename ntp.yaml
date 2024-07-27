@@ -11,7 +11,7 @@ spec:
       "esx": {
         "system": {
           "system_time": {
-            "enabled": true,
+            "enabled": false,
             "protocol": "NTP",
             "ntp_config": {
               "server": [{
