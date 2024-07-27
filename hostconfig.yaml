@@ -8,11 +8,11 @@ spec:
   layertype: Incremental
   profile: >
     {
-    "esx": {
-      "system": {
-        "welcome_message": {
-          "message": "Hello VMware Edge Cloud Orchestrator - Edge Host"
-        }
-       }
-     }
+      "esx": {
+          "system": {
+            "welcome_message": {
+                "message": "{align:center}{color:white} \n\n\n\n VMware Edge Cloud Orchestrator - Edge Host{/color}{/align}\n\n\n\n\n\n\n\n\n{align:center}{color:red}No Unauthorized Access{/color}{/align}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{align:center}{color:yellow} For access contact Alan Renouf on 555 555-5555{/color}{/align}"
+            }
+          }
+      }
     }
