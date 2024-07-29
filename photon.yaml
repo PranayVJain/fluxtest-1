@@ -1,0 +1,37 @@
+apiVersion: vmoperator.vmware.com/v1alpha1
+kind: VirtualMachine
+metadata:
+  name: photon-vm3
+  namespace: default
+  annotations:
+    vmoperator.vmware.com/image-supported-check: disable
+spec:
+  className: small
+  imageName: packages.vmware.com/photon/5.0/GA/ova/photon-hw15-5.0-dde71ec57.x86_64.ova
+  powerState: poweredOn
+  vmMetadata:
+    configMapName: photon-vm3-user-data
+    transport: CloudInit
+  networkInterfaces:
+  - networkName: "VM Network"
+    ethernetCardType: "vmxnet3"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+    name: photon-vm3-user-data
+    namespace: default
+data:
+  user-data: |
+    #cloud-config
+    ssh_pwauth: true
+    users:
+      - name: root
+        sudo: ALL=(ALL) NOPASSWD:ALL
+        lock_passwd: false
+        plain_text_passwd: 'ha$hc0w'
+        shell: /bin/bash
+    write_files:
+      - content: |
+          Keswick VM service says Hello World
+        path: /helloworld
