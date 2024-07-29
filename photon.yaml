@@ -6,7 +6,7 @@ metadata:
   annotations:
     vmoperator.vmware.com/image-supported-check: disable
 spec:
-  className: small
+  className: guaranteed-xsmall
   imageName: packages.vmware.com/photon/5.0/GA/ova/photon-hw15-5.0-dde71ec57.x86_64.ova
   powerState: poweredOn
   vmMetadata:
