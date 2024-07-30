@@ -11,7 +11,7 @@ spec:
       "esx": {
           "system": {
             "welcome_message": {
-                "message": "{align:left}{color:white} \n\n\n\n\tVMware Edge Cloud Orchestrator - Edge Host II{/color}{/align}\n\n\n\n\n\n\n\n\n{align:left}{color:yellow}"
+                "message": "{align:left}{color:white} \n\n\n\n\tVMware Edge Cloud Orchestrator - Edge Host Is The Best{/color}{/align}\n\n\n\n\n\n\n\n\n{align:left}{color:yellow}"
             }
           }
       }
